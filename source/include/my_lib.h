@@ -2,3 +2,4 @@
 
 #include "factorial.h"
 #include "power.h"
+#include "cos.h"

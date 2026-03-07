@@ -5,7 +5,7 @@ include_directories("${PROJECT_SOURCE_DIR}/include")
 set(SOURCES
     factorial.c # liczy silnie liczby n
 	power.c	# oblicza potęgę (potęgowanie binarne)
-	#cos.c		# funkcje liczące cosinusa
+	cos.c		# 4 funkcje liczące cosinusa
 )
 
 add_library(my_library STATIC ${SOURCES})
