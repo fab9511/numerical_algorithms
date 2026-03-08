@@ -1,2 +1,2 @@
 #pragma once
-int factorial(int n);
+double factorial(int n);
