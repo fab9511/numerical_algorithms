@@ -7,5 +7,9 @@ add_executable(prog main.c)
 
 #linkowanie biblioteki do głównego kodu
 target_link_libraries(
-  prog PUBLIC my_library 
+	prog 
+	PUBLIC 
+	my_library
+	m
 )
+
