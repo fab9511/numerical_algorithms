@@ -27,10 +27,10 @@ double cos_taylor_reverse(double x, int precision) {
 
 double cos_recursive(double x, int precision) {
     double result = 1.0;
-	double term = 1.0;
+	double term = 1.0; 
 
-    for (int i = 0; i < precision; i++) {
-        term *= -x * x / ((2*i + 1) * (2*i + 2)); 
+    for (int i = 1; i < precision; i++) {
+        term *= -x * x / ((2*i - 1)*(2*i));
 		result += term;
     }
 
